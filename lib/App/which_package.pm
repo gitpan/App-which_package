@@ -8,8 +8,7 @@ use Text::Table;
 use File::Which qw( which );
 
 # ABSTRACT: Determine which package installed a file
-our $VERSION = '0.04'; # VERSION
-
+our $VERSION = '0.05'; # VERSION
 
 my $ap = Alien::Packages->new;
 
@@ -66,24 +65,7 @@ App::which_package - Determine which package installed a file
 
 =head1 VERSION
 
-version 0.04
-
-=head1 SYNOPSIS
-
- % which_package /path/to/file [ ... ]
-
-=head1 DESCRIPTION
-
-Print out package information for packages that own a given file.
-
-For each file on the command line this program will print out the
-package name and type of package.  It uses L<Alien::Packages> to
-do this portably, so it should work, with various limitations, 
-portably on a wide variety of platforms.
-
-=head1 OPTIONS
-
-none, as yet.
+version 0.05
 
 =head1 AUTHOR
 

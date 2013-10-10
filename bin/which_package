@@ -4,9 +4,10 @@ use strict;
 use warnings;
 use App::which_package;
 
-# PODNAME: which_package
 # ABSTRACT: Determine which package installed a file
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
+# PODNAME: which_package
+
 
 exit App::which_package->main(@ARGV);
 
@@ -20,7 +21,29 @@ which_package - Determine which package installed a file
 
 =head1 VERSION
 
-version 0.04
+version 0.05
+
+=head1 SYNOPSIS
+
+ % which_package /path/to/file [ ... ]
+
+=head1 DESCRIPTION
+
+Print out package information for packages that own a given file.
+
+For each file on the command line this program will print out the
+package name and type of package.  It uses L<Alien::Packages> to
+do this portably, so it should work, with various limitations, 
+portably on a wide variety of platforms (Debian, RedHat and Cygwin
+have been tested).
+
+If given a command, C<which_package> will use L<File::Which> to
+find the location of that command and use that to query the package
+manager for ownership.
+
+=head1 OPTIONS
+
+none, as yet.
 
 =head1 AUTHOR
 

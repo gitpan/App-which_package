@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/plicease/app-which_package/issues
   homepage: http://perl.wdlabs.com/App-which_package/
   repository: git://github.com/plicease/app-which_package.git
-version: 0.04
+version: 0.05

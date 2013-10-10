@@ -1,5 +1,8 @@
 Revision history for App-which_package
 
+0.05      2013-10-10 15:27:46 -0400
+  - documentation
+
 0.04      2013-10-10 13:04:06 -0400
   - require Alien::Packages::Cygwin on cygwin
 
