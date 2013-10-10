@@ -1,0 +1,28 @@
+---
+abstract: 'Determine which package installed a file'
+author:
+  - 'Graham Ollis <plicease@cpan.org>'
+build_requires:
+  Capture::Tiny: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 1
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-which_package
+requires:
+  Alien::Packages: 0.003
+  File::Which: 0
+  Path::Class: 0.26
+  Text::Table: 0
+  perl: 5.006
+resources:
+  bugtracker: https://github.com/plicease/app-which_package/issues
+  homepage: http://perl.wdlabs.com/App-which_package/
+  repository: git://github.com/plicease/app-which_package.git
+version: 0.04

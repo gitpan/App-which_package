@@ -1,0 +1,53 @@
+{
+   "abstract" : "Determine which package installed a file",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-which_package",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Alien::Packages" : "0.003",
+            "File::Which" : "0",
+            "Path::Class" : "0.26",
+            "Text::Table" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Capture::Tiny" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/app-which_package/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/App-which_package/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/app-which_package.git",
+         "web" : "https://github.com/plicease/app-which_package"
+      }
+   },
+   "version" : "0.04"
+}
+

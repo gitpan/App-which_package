@@ -1,0 +1,14 @@
+Revision history for App-which_package
+
+0.04      2013-10-10 13:04:06 -0400
+  - require Alien::Packages::Cygwin on cygwin
+
+0.03      2013-09-24 08:35:38 -0400
+  - require Path::Class 0.26 for spew()
+
+0.02      2013-09-14 21:23:44 -0400
+  - fix Debian package name split on , in Alien::Packages
+    instead of here
+
+0.01      2013-09-13 09:28:47 -0400
+  - initial version
